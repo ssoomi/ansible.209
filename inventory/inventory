@@ -3,6 +3,7 @@
 
 # CENTOS @ Machine's
 192.168.10.41
+192.168.10.214
 
 # FEDORA @ MACHINE's
 192.168.10.5
@@ -15,3 +16,6 @@
 
 # ARCH @ MACHINE's
 192.168.10.45
+
+# Kali @ MACHINE's
+192.168.10.207

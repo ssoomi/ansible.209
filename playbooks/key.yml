@@ -1,0 +1,10 @@
+---
+- name: Add Keys to hosts
+  hosts: 192.168.10.214
+  tasks:
+  - name: Install Key
+    authorized_key: 
+      user: eternia
+      state: present
+      key: "{{ lookup('file', '~/.ssh/test-key.pub') }}"
+
